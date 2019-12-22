@@ -1,0 +1,19 @@
+{
+  "name": "real-estate",
+  "version": "1.0.0",
+  "description": "real-easte site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chetan3460/Real-Estate.git"
+  },
+  "author": "chetan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chetan3460/Real-Estate/issues"
+  },
+  "homepage": "https://github.com/chetan3460/Real-Estate#readme"
+}
