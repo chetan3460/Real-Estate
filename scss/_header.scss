@@ -113,30 +113,19 @@
                    margin-left: 0;
                }
                a{
-                /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fdae5c+0,fd8e5e+100 */
-                background: rgb(253,174,92); /* Old browsers */
-                background: -moz-linear-gradient(top,  rgba(253,174,92,1) 0%, rgba(253,142,94,1) 100%); /* FF3.6-15 */
-                background: -webkit-linear-gradient(top,  rgba(253,174,92,1) 0%,rgba(253,142,94,1) 100%); /* Chrome10-25,Safari5.1-6 */
-                background: linear-gradient(to bottom,  rgba(253,174,92,1) 0%,rgba(253,142,94,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdae5c', endColorstr='#fd8e5e',GradientType=0 ); /* IE6-9 */
 
-
+                background: $primary-color;
                 padding: 13px 26px;
                 font-size: 14px;
                 font-weight: 400;
-                border: 1px solid transparent;
+                border: 2px solid transparent;
                 color: #fff;
-                @include border-radius(30px);
+                text-transform: uppercase;
                 @media #{$mid_device} {
                     padding: 12px 20px;
                 }
                 &:hover{
-                /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fdae5c+0,fd8e5e+100 */
-                background: rgb(253,174,92); /* Old browsers */
-                background: -moz-linear-gradient(top,  rgba(253,174,92,1) 0%, rgba(253,142,94,1) 100%); /* FF3.6-15 */
-                background: -webkit-linear-gradient(top,  rgba(253,174,92,1) 0%,rgba(253,142,94,1) 100%); /* Chrome10-25,Safari5.1-6 */
-                background: linear-gradient(to bottom,  rgba(253,174,92,1) 0%,rgba(253,142,94,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdae5c', endColorstr='#fd8e5e',GradientType=0 ); /* IE6-9 */
+                    filter: brightness(115%);
 
                 }
                }
@@ -187,13 +176,7 @@
                         &::before {
                             position: absolute;
                             content: "";
-                            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fdae5c+0,fd8e5e+100 */
-                            background: rgb(253,174,92); /* Old browsers */
-                            background: -moz-linear-gradient(top,  rgba(253,174,92,1) 0%, rgba(253,142,94,1) 100%); /* FF3.6-15 */
-                            background: -webkit-linear-gradient(top,  rgba(253,174,92,1) 0%,rgba(253,142,94,1) 100%); /* Chrome10-25,Safari5.1-6 */
-                            background: linear-gradient(to bottom,  rgba(253,174,92,1) 0%,rgba(253,142,94,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-                            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdae5c', endColorstr='#fd8e5e',GradientType=0 ); /* IE6-9 */
-
+                            background: $primary-color;
                             width: 100%;
                             height: 3px;
                             bottom: -33px;
@@ -272,9 +255,7 @@
             transition: transform 500ms ease, background 500ms ease;
             -webkit-transition: transform 500ms ease, background 500ms ease;
             box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-            // padding: 10px 150px;
-            background: rgba(255, 255, 255,.96);
-            background: #2C2C2C;
+            background: #0d1432;
             // padding-bottom: 0;
             @media #{$mobile_device} {
                 padding: 10px 10px;
@@ -303,7 +284,7 @@
                         &::before {
                             position: absolute;
                             content: "";
-                            background: #FDAE5C;
+                            background: $primary-color;
                             width: 100%;
                             height: 3px;
                             bottom: -27px;

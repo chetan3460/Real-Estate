@@ -475,7 +475,7 @@ h3 {
 .section-title {
   position: relative; }
   .section-title h2 {
-    color: #001D38;
+    color: #191d34;
     font-size: 35px;
     line-height: 20px;
     position: relative;
@@ -725,40 +725,18 @@ h3 {
           .header-area .main-header-area .Appointment .book_btn {
             margin-left: 0; } }
         .header-area .main-header-area .Appointment .book_btn a {
-          /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fdae5c+0,fd8e5e+100 */
-          background: #fdae5c;
-          /* Old browsers */
-          background: -moz-linear-gradient(top, #fdae5c 0%, #fd8e5e 100%);
-          /* FF3.6-15 */
-          background: -webkit-linear-gradient(top, #fdae5c 0%, #fd8e5e 100%);
-          /* Chrome10-25,Safari5.1-6 */
-          background: linear-gradient(to bottom, #fdae5c 0%, #fd8e5e 100%);
-          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdae5c', endColorstr='#fd8e5e',GradientType=0 );
-          /* IE6-9 */
+          background: #17c788;
           padding: 13px 26px;
           font-size: 14px;
           font-weight: 400;
-          border: 1px solid transparent;
+          border: 2px solid transparent;
           color: #fff;
-          -webkit-border-radius: 30px;
-          -moz-border-radius: 30px;
-          border-radius: 30px; }
+          text-transform: uppercase; }
           @media (min-width: 992px) and (max-width: 1200px) {
             .header-area .main-header-area .Appointment .book_btn a {
               padding: 12px 20px; } }
           .header-area .main-header-area .Appointment .book_btn a:hover {
-            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fdae5c+0,fd8e5e+100 */
-            background: #fdae5c;
-            /* Old browsers */
-            background: -moz-linear-gradient(top, #fdae5c 0%, #fd8e5e 100%);
-            /* FF3.6-15 */
-            background: -webkit-linear-gradient(top, #fdae5c 0%, #fd8e5e 100%);
-            /* Chrome10-25,Safari5.1-6 */
-            background: linear-gradient(to bottom, #fdae5c 0%, #fd8e5e 100%);
-            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdae5c', endColorstr='#fd8e5e',GradientType=0 );
-            /* IE6-9 */ }
+            filter: brightness(115%); }
     .header-area .main-header-area .main-menu {
       text-align: center;
       padding: 12px 0; }
@@ -793,17 +771,7 @@ h3 {
           .header-area .main-header-area .main-menu ul li a::before {
             position: absolute;
             content: "";
-            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fdae5c+0,fd8e5e+100 */
-            background: #fdae5c;
-            /* Old browsers */
-            background: -moz-linear-gradient(top, #fdae5c 0%, #fd8e5e 100%);
-            /* FF3.6-15 */
-            background: -webkit-linear-gradient(top, #fdae5c 0%, #fd8e5e 100%);
-            /* Chrome10-25,Safari5.1-6 */
-            background: linear-gradient(to bottom, #fdae5c 0%, #fd8e5e 100%);
-            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdae5c', endColorstr='#fd8e5e',GradientType=0 );
-            /* IE6-9 */
+            background: #17c788;
             width: 100%;
             height: 3px;
             bottom: -33px;
@@ -871,8 +839,7 @@ h3 {
       transition: transform 500ms ease, background 500ms ease;
       -webkit-transition: transform 500ms ease, background 500ms ease;
       box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-      background: rgba(255, 255, 255, 0.96);
-      background: #2C2C2C; }
+      background: #0d1432; }
       @media (max-width: 767px) {
         .header-area .main-header-area.sticky {
           padding: 10px 10px; } }
@@ -885,7 +852,7 @@ h3 {
       .header-area .main-header-area.sticky ul li a::before {
         position: absolute;
         content: "";
-        background: #FDAE5C;
+        background: #17c788;
         width: 100%;
         height: 3px;
         bottom: -27px;
@@ -956,7 +923,7 @@ h3 {
   position: relative;
   z-index: 0; }
   .slider_area::before {
-    background: #001D38;
+    background: rgba(13, 20, 50, 0.4);
     position: absolute;
     left: 0;
     top: 0;
@@ -1942,9 +1909,6 @@ h3 {
   .popular_property .more_property_btn {
     margin-top: 30px; }
   .popular_property .single_property {
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
     overflow: hidden;
     margin-bottom: 30px;
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
@@ -1978,7 +1942,7 @@ h3 {
           background: #FF5748 !important; }
     .popular_property .single_property .property_content {
       padding: 25px;
-      border-bottom: 1px solid #E8E8E8; }
+      background: #f5f5f5; }
       .popular_property .single_property .property_content .main_pro h3 {
         font-size: 16px;
         color: #001D38;
@@ -2343,13 +2307,17 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
       margin-bottom: 30px; } }
 
 .section-gap {
-  padding-bottom: 120px; }
+  width: 100%;
+  padding: 80px 0; }
+
+.bg-gray {
+  background-color: #f5f5f5 !important; }
 
 .services {
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s; }
+  -webkit-transition: all 300ms ease-in-out 0s;
+  -moz-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s; }
   @media (max-width: 767px) {
     .services {
       margin-bottom: 40px; } }
@@ -2363,8 +2331,9 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent; }
     .services .icon span {
-      font-size: 60px;
-      color: #d4ca68; }
+      font-size: 45px;
+      line-height: 45px;
+      color: #17c788; }
       .services .icon span:hover {
         -webkit-animation-name: hvr-pulse-grow;
         animation-name: hvr-pulse-grow;
@@ -2380,11 +2349,16 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
     width: 100%;
     color: rgba(0, 0, 0, 0.8); }
     .services .media-body h3 {
-      font-size: 24px;
+      font-size: 18px;
       font-weight: 500;
-      color: #000; }
+      color: #0d1432; }
     .services .media-body p {
       margin-bottom: 0; }
+  .services:hover {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1); }
   .services.active {
     background: #d4ca68; }
     .services.active .icon span {
@@ -3202,7 +3176,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   -o-transition: all 0.3s ease-in-out 0s; }
   .services-item .icon i {
     font-size: 42px;
-    color: #000; }
+    color: #17c788; }
   .services-item .services-content h3 {
     font-weight: 600;
     text-transform: uppercase;
