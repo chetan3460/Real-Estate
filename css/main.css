@@ -75,7 +75,7 @@ li {
   list-style: none; }
 
 p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
   line-height: 28px;
   color: #4D4D4D;
@@ -725,7 +725,7 @@ h3 {
           .header-area .main-header-area .Appointment .book_btn {
             margin-left: 0; } }
         .header-area .main-header-area .Appointment .book_btn a {
-          background: #17c788;
+          background: #bf9410;
           padding: 13px 26px;
           font-size: 14px;
           font-weight: 400;
@@ -771,7 +771,7 @@ h3 {
           .header-area .main-header-area .main-menu ul li a::before {
             position: absolute;
             content: "";
-            background: #17c788;
+            background: #bf9410;
             width: 100%;
             height: 3px;
             bottom: -33px;
@@ -852,7 +852,7 @@ h3 {
       .header-area .main-header-area.sticky ul li a::before {
         position: absolute;
         content: "";
-        background: #17c788;
+        background: #bf9410;
         width: 100%;
         height: 3px;
         bottom: -27px;
@@ -1181,10 +1181,7 @@ h3 {
   .about_mission .about_thumb {
     margin-bottom: 20px; }
     .about_mission .about_thumb img {
-      width: 100%;
-      -webkit-border-radius: 20px;
-      -moz-border-radius: 20px;
-      border-radius: 20px; }
+      width: 100%; }
   .about_mission .about_text {
     margin-bottom: 20px;
     padding-left: 68px; }
@@ -1195,7 +1192,7 @@ h3 {
       .about_mission .about_text {
         padding-left: 0; } }
     .about_mission .about_text h4 {
-      font-size: 42px;
+      font-size: 39px;
       font-weight: 500;
       color: #001D38; }
     .about_mission .about_text p {
@@ -1213,7 +1210,7 @@ h3 {
       .counter_area .single_counter {
         text-align: center; } }
     .counter_area .single_counter h3 {
-      color: #FDAE5C;
+      color: #bf9410;
       font-weight: 500;
       font-size: 42px;
       margin-bottom: 0; }
@@ -2333,7 +2330,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
     .services .icon span {
       font-size: 45px;
       line-height: 45px;
-      color: #17c788; }
+      color: #bf9410; }
       .services .icon span:hover {
         -webkit-animation-name: hvr-pulse-grow;
         animation-name: hvr-pulse-grow;
@@ -3176,7 +3173,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   -o-transition: all 0.3s ease-in-out 0s; }
   .services-item .icon i {
     font-size: 42px;
-    color: #17c788; }
+    color: #bf9410; }
   .services-item .services-content h3 {
     font-weight: 600;
     text-transform: uppercase;
@@ -4359,7 +4356,7 @@ h6 {
       font-size: 13px;
       font-weight: 300; }
     .single-blog .single-blog-content .meta-bottom i {
-      color: #fdcb9e;
+      color: #bf9410;
       font-size: 13px;
       margin-right: 7px; }
     @media (max-width: 1199px) {
@@ -4593,9 +4590,9 @@ h6 {
   .blog_details p {
     margin-bottom: 30px; }
   .blog_details a {
-    color: #ff8b23; }
+    color: #bf9410; }
     .blog_details a:hover {
-      color: #FDAE5C; }
+      color: #bf9410; }
   .blog_details h2 {
     font-size: 18px;
     font-weight: 600;
@@ -4764,7 +4761,7 @@ h6 {
     color: #888888;
     font-size: 13px; }
     .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-      background: #FDAE5C;
+      background: #bf9410;
       color: #fff !important;
       -webkit-text-fill-color: #fff;
       text-decoration: none;
@@ -4905,7 +4902,7 @@ h6 {
   .single-post-area .blog-author a {
     display: inline-block; }
     .single-post-area .blog-author a:hover {
-      color: #FDAE5C; }
+      color: #bf9410; }
   .single-post-area .blog-author p {
     margin-bottom: 0;
     font-size: 15px; }
@@ -5129,7 +5126,7 @@ h6 {
         .blog_part .single-home-blog .card .card-body {
           padding: 20px; } }
       .blog_part .single-home-blog .card .card-body a {
-        color: #FDAE5C;
+        color: #bf9410;
         text-transform: uppercase;
         -webkit-transition: 0.8s;
         transition: 0.8s; }
@@ -5147,7 +5144,7 @@ h6 {
         height: 10px;
         top: 5px;
         left: 0;
-        background-color: #FDAE5C;
+        background-color: #bf9410;
         border-radius: 50%; }
     .blog_part .single-home-blog .card span {
       color: #8a8a8a;
