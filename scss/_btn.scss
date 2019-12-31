@@ -41,7 +41,6 @@
     font-weight: 500;
     border: 0;
     // border: 1px solid transparent;
-    @include border-radius(30px);
     // width: 180px;
     text-align: center;
     color: #fff !important;
@@ -76,7 +75,6 @@
     font-weight: 400;
     border: 0;
     border: 1px solid #fff;
-    @include border-radius(5px);
     // width: 180px;
     text-align: center;
     color: #fff !important;
@@ -109,7 +107,6 @@
     font-weight: 500;
     border: 0;
     border: 1px solid #FDAE5C;
-    @include border-radius(30px);
     // width: 180px;
     text-align: center;
     text-transform: capitalize;

@@ -1,44 +1,4 @@
 
-.about_info_area{
-    padding-bottom: 70px;
-    &.plus_padding{
-        padding-top: 100px;
-        @media #{$mobile_device} {
-            padding-top: 30px;
-        }
-    }
-    .about_text{
-        margin-bottom: 30px;
-        h3{
-            font-size: 46px;
-            font-weight:300 ;
-            color: #001D38;
-            @media #{$mobile_device} {
-                font-size: 30px;
-            }
-        }
-        p{
-            font-size: 15px;
-            font-weight: 400;
-            color: #727272;
-            margin-bottom: 24px;
-            margin-top: 10px;
-        }
-        a{
-            padding: 13px 43px;
-        }
-    }
-    .about_thumb{
-        @include border-radius(10px);
-        overflow: hidden;
-        margin-bottom: 30px;
-        img{
-            width: 100%;
-
-        }
-    }
-}
-
 // about_mission 
 .about_mission{
     padding-top: 120px;
@@ -49,6 +9,10 @@
         margin-bottom: 20px;
         img{
             width: 100%;
+            border-radius: 0.25rem!important;
+            width: 100%;
+            -webkit-box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.3);
         }
     }
     .about_text{
@@ -71,5 +35,19 @@
             color: #727272;
             line-height: 28px;
         }
+    }
+}
+.about_statment{
+    p{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 20px;
+        font-weight: 600px;
+    }
+    .section_line{
+        padding-top: 94px;
+        padding-bottom: 70px;
+        border-top: 1px solid #DADAE1;
     }
 }
