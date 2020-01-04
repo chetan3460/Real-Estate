@@ -30,14 +30,14 @@
         font-size:42px;
         color: #fff;
         font-weight: 600;
-        margin-bottom: 0;
+        margin-bottom: 27px;        
         text-transform: capitalize;
         @media #{$mobile_device} {
             font-size: 30px;
         }
     }
     p{
-        font-size: 18px;
+        font-size: 15px;
         color: #fff;
         font-weight: 400;
         text-transform: capitalize;
@@ -47,6 +47,11 @@
                 color: #fff;
             }
         }
+    }
+
+    span{
+        margin: 0px 5px;
+        font-size: 12px;
     }
 }
 
