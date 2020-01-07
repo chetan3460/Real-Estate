@@ -70,6 +70,7 @@
             }
         }
         .Appointment{
+            margin-right: 15px;
             @include flexbox();
             @include align-items(center);
             @include justify-content(flex-end);
@@ -195,7 +196,7 @@
                             }
                         }
                         &:hover{
-                            // color: #FDAE5C;
+                            // color: $primary-color;
                         }
                     }
                     .submenu {
@@ -285,7 +286,7 @@
                             background: $primary-color;
                             width: 100%;
                             height: 3px;
-                            bottom: -27px;
+                            bottom: -5px;
                             left: 0;
                             opacity: 0;
                             transform: scaleX(0);
@@ -309,7 +310,7 @@
             color: #C7C7C7;
             margin-right: 12px;
             &:hover{
-                color: #FDAE5C;
+                color: $primary-color;
             }
           }
       }  
@@ -339,7 +340,7 @@
                         margin: 0 5px;
                     }
                     i{
-                        color: #FDAE5C;
+                        color: $primary-color;
                         margin-right: 7px;
                     }
                   }

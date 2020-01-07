@@ -1,10 +1,59 @@
 .property_details{
-    padding: 8em 0;
+    padding-top: 2em;    
     @media #{$mobile_device} {
         padding-bottom: 40px;
     }
     .contact-section {
         padding: 41px 0 55px 0;
+    }
+    .property-title {
+        margin-bottom: 15px;
+    }
+    .spad-p {
+        padding-bottom: 8px;
+    }
+    
+    .single-property {
+        padding-top: 36px;
+    }
+    
+    .property-title {
+        float: left;
+    
+        h3 {
+            color: #30304e;
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 7px;
+        }
+    
+        a {
+            color: #6f6f8a;
+            font-weight: 400;
+            font-size: 18px;
+            display: inline-block;
+    
+            i {
+                color: #000;
+            }
+        }
+    }
+    
+    .property-price {
+        float: right;
+    
+        p {
+            color: #8f8fa8;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: -4px;
+        }
+    
+        span {
+            color: #30304e;
+            font-size: 30px;
+            font-weight: 500;
+        }
     }
     .property_banner{
         margin-bottom: 60px;
@@ -24,7 +73,7 @@
                 right: 50px;
             }
             &:hover{
-                background: #FDAE5C;
+                background: $primary-color;
                 color: #fff;
             }
         }
@@ -98,7 +147,7 @@
                 }
             }
             .send_btn {
-                background: #FDAE5C;
+                background: $primary-color;
                 color: #fff;
                 text-align: center;
                 padding: 6px;
@@ -164,8 +213,8 @@
             margin-bottom: 20px;
         }
         a{
-            color: #FDAE5C;
-            border: 1px solid #FDAE5C;
+            color: $primary-color;
+            border: 1px solid $primary-color;
             padding: 8px 34px;
             -webkit-border-radius: 30px;
             -moz-border-radius: 30px;
@@ -174,7 +223,7 @@
             font-weight: 500;
             font-size: 15px;
             &:hover{
-                background: #FDAE5C;
+                background: $primary-color;
                 color: #fff;
             }
         }
