@@ -16,9 +16,7 @@
     border-radius: 10px;
 	&:hover{
 		transition: transform .2s ease-out;
-		-webkit-transform: scale(1.07) translateZ(0);
-		-moz-transform: scale(1.07) translateZ(0);
-		transform: scale(1.07) translateZ(0);
+
 	}
 	.services {
 		display: inline-block;
